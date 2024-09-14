@@ -1,0 +1,72 @@
+/* QuoteCard.css */
+.quote-card {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  font-family: cursive;
+  transition: transform 0.3s ease;
+}
+
+.quote-card:hover {
+  transform: translateY(-10px);
+}
+
+.quote-content {
+  text-align: center;
+  color: #333;
+}
+
+.quote-text {
+  font-size: 1.5em;
+  font-style: italic;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+
+.quote-author {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* WhatsAppShareButton.css */
+.whatsapp-button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+}
+
+/* styles.css */
+.refresh-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.refresh-button:hover {
+  background-color: #45a049;
+}
