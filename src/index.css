@@ -70,3 +70,37 @@
 .refresh-button:hover {
   background-color: #45a049;
 }
+
+.header {
+  position: fixed; /* Fixes the header at the top */
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  background-color: #ffffff; /* White background for a clean look */
+  padding: 15px 20px; /* Padding for spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Space out the link and text */
+  align-items: center; /* Center items vertically */
+  z-index: 1000; /* Ensure the header is above other content */
+}
+
+.header-link {
+  font-size: 1.5em;
+  color: #25d366;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.header-link:hover {
+  color: #007bff; /* Change color on hover */
+  text-decoration: underline;
+}
+
+.powered-by {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666; /* Slightly lighter text color */
+}
